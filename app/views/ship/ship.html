@@ -1,4 +1,6 @@
 <h1>
-    Details about {{id}}
+    Details about {{ship.name}}
 </h1>
-{{ship}}
+<div ng-repeat="(key, value) in ship" >
+    {{key}} | {{value}}
+</div>
